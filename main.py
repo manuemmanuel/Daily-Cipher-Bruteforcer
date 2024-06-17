@@ -25,7 +25,6 @@ def input_morse(sequence):
 def generate_alphabet_combinations():
     return list(morse_code.keys())
 
-# Main brute-force function
 def brute_force_morse():
     correct_sequence = []
     possible_letters = generate_alphabet_combinations()
